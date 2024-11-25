@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(102, 255, 0);
+    }
+
+header {
+    background-color: rgb(89, 0, 255);
+}
+
+main {
+    background-color: #ffe600; /* Fundo principal azul claro */
+    padding: 20px; /* Espaçamento interno */
+  }
+
+}
+main {
+  background-color: #00eeff; /* Fundo principal azul claro */
+  padding: 20px; /* Espaçamento interno */
+}
+
+footer {
+  background-color: #000000; /* Preto para o rodapé */
+  color: #ff008c; /* Cinza claro para o texto (menos agressivo que o roxo neon) */
+  text-align: center;
+  padding: 15px 0; /* Mais espaçamento para o rodapé */
+}
