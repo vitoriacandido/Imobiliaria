@@ -1,19 +1,22 @@
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(104, 0, 0);
     }
 
 header {
-    background-color: rgba(255, 238, 0, 0.384);
+    background-color: rgb(104, 0, 0);
 }
+  
 
-main {
-    background-color: #ffc400ad; /* Fundo principal azul claro */
+ main {
+    background-color: rgb(158, 0, 53); /* Fundo principal azul claro */
     padding: 20px; /* Espaçamento interno */
+
   }
 
 footer {
-  background-color: #000000; /* Preto para o rodapé */
-  color: #ff5100; /* Cinza claro para o texto (menos agressivo que o roxo neon) */
+  background-color: rgb(158, 0, 53); /* Preto para o rodapé */
+  color: #ff93aa; /* Cinza claro para o texto (menos agressivo que o roxo neon) */
   text-align: center;
   padding: 15px 0; /* Mais espaçamento para o rodapé */
 }
+
