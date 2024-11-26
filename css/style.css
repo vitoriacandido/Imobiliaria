@@ -1,22 +1,36 @@
 body {
-    background-color: rgb(104, 0, 0);
+    background-color: #E9F1FA;
     }
 
 header {
-    background-color: rgb(104, 0, 0);
+    background-color: rgba(121, 213, 241, 0.788);
 }
   
 
  main {
-    background-color: rgb(158, 0, 53); /* Fundo principal azul claro */
+    background-color: #00abe49a; /* Fundo principal azul claro */
     padding: 20px; /* Espaçamento interno */
 
   }
 
 footer {
-  background-color: rgb(158, 0, 53); /* Preto para o rodapé */
-  color: #ff93aa; /* Cinza claro para o texto (menos agressivo que o roxo neon) */
+  background-color: #e6eef7; /* Preto para o rodapé */
+  color: #001affda; /* Cinza claro para o texto (menos agressivo que o roxo neon) */
   text-align: center;
   padding: 15px 0; /* Mais espaçamento para o rodapé */
+}
+
+/* CSS customizado para ajustar o tamanho dos cards */
+.card {
+  max-width: 100%;
+  border: 1px solid #00112b; /* Um borda suave */
+  color: #ffffff;
+  background-color: rgba(155, 216, 235, 0.788);
+  border-bottom-color: rgb(0, 26, 59);
+}
+
+.card-img-top {
+  object-fit: cover; /* Garantir que as imagens se ajustem sem distorcer */
+  height: 200px; /* Altura fixa para as imagens */
 }
 

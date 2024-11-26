@@ -11,45 +11,52 @@
 </head>
 
 <body>
- <header>
+
+  <header>
+
     <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container">
-          <img src="img/Casarão.png" alt="Casarão" width="250" height="200">
-          <h1 class="navbar-brand" href="index.html">Casarão</h1>
+        <div class="container d-flex justify-content-between align-items-center">
+            <!-- Logo e título -->
+            <a href="index.html" class="navbar-brand d-flex align-items-center">
+                <img src="img/Casarão.png" alt="" width="150" height="150">
+                <span>Casarão</span> 
+            </a>
+            
+            <!-- Botão para alternar o menu em dispositivos móveis -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <!-- Itens do menu -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto"> <!-- ms-auto alinha os itens à direita -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button"
+                           data-bs-toggle="dropdown" aria-expanded="false">
+                            Imóveis
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                            <li><a class="dropdown-item" href="Apartamento.html">Apartamento</a></li>
+                            <li><a class="dropdown-item" href="Casas.html">Casas</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button"
+                           data-bs-toggle="dropdown" aria-expanded="false">
+                            Contato
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                            <li><a class="dropdown-item" href="Contato .html">Contato</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-           <!-- Button para alternar o menu em dispositivos móveis -->
-           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-           <span class="navbar-toggler-icon"></span>
-       </button>
+</header>
 
-       <div class="collapse navbar-collapse" id="navbarNav">
-           <ul class="navbar-nav">
-               <li class="nav-item dropdown">
-                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button"
-                       data-bs-toggle="dropdown" aria-expanded="false">
-                      Imóveis
-                   </a>
-                   <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
-                       <li><a class="dropdown-item" href="Apartamento.html">Apartamento</a></li>
-                       <li><a class="dropdown-item" href="Casas.html">Casas</a></li>
-                   </ul>
-               </li>
-               <!-- Contato Menu -->
-               <li class="nav-item dropdown">
-                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button"
-                       data-bs-toggle="dropdown" aria-expanded="false">
-                       Contato
-                   </a>
-                   <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
-                       <li><a class="dropdown-item" href="Contato .html">Contato</a></li>
-                   </ul>
-               </li>
-           </ul>
-       </div>
-   </div>
- </nav>
- </header>
 
  <main>
   <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
@@ -91,10 +98,17 @@
       </button>
     </div>
 
+
 </main>
 
 <footer>
+
   <p>&copy; 2024 Casarão. Feito por Vitória.</p>
+
+  <div>
+    <a href="https://github.com/vitoriacandido/Vale-Imobiliaria.git" class="text-white mx-3">Github</a>
+</div>
+
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
