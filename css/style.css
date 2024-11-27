@@ -34,3 +34,62 @@ footer {
   height: 200px; /* Altura fixa para as imagens */
 }
 
+
+/*----------------------------------------------------------------*/
+
+/* Resetando margens e preenchimento */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo para o corpo da página */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f9; /* Cor de fundo suave */
+  color: #333; /* Cor do texto principal */
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Centralizando o título e o subtítulo */
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Estilos para o título principal */
+h1 {
+  color: #042e8891; /* Cor escura e profissional */
+  font-size: 48px; /* Tamanho grande e atraente */
+  font-weight: 700; /* Negrito */
+  text-transform: uppercase; /* Título em maiúsculas */
+  letter-spacing: 2px; /* Espaçamento entre as letras */
+  margin-bottom: 20px;
+}
+
+/* Estilos para o subtítulo */
+h3 {
+  color: #063e86; /* Cor verde suave */
+  font-size: 30px; /* Tamanho adequado para o subtítulo */
+  font-weight: 500; /* Peso de fonte médio */
+  margin-bottom: 30px;
+}
+
+/* Adicionando um efeito de hover no título */
+h1:hover {
+  color: #000000; /* Mudança de cor ao passar o mouse */
+  transition: color 0.3s ease-in-out;
+}
+
+/* Estilos para dispositivos móveis */
+@media (max-width: 768px) {
+  h1 {
+      font-size: 36px; /* Tamanho reduzido em telas menores */
+  }
+
+  h3 {
+      font-size: 22px; /* Tamanho reduzido em telas menores */
+  }
+}
