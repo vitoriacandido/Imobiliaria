@@ -1,6 +1,4 @@
-# Vale Imobiliaria
-
-## **Proposta do site:**
+## **Proposta do site**
 ## Recursos utilizados
 - HTML
 - ...
