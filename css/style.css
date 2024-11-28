@@ -24,9 +24,10 @@ footer {
 .card {
   max-width: 100%;
   border: 1px solid #00112b; /* Um borda suave */
-  color: #ffffff;
+  color: #4576fa;
   background-color: rgba(155, 216, 235, 0.788);
   border-bottom-color: rgb(0, 26, 59);
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .card-img-top {
@@ -93,3 +94,6 @@ h1:hover {
       font-size: 22px; /* Tamanho reduzido em telas menores */
   }
 }
+
+
+
